@@ -35,7 +35,7 @@ en:
   site:
     name: 'FindMe'
     tagline: 'We finds the needed person!'
-    about: 'We have created this site in order to provide you '
+    about: 'We have created this site in order to provide you person who is needed'
     url: 'localhost:3000/'
     contact_address: 'Indore, M.P., INDIA'
     phone: 'Phone'

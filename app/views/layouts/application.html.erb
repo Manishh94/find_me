@@ -13,6 +13,9 @@
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
     <%= render partial: 'shared/top-navbar' %>
 
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+
     <%= yield %>
 
     <%= render partial: 'shared/footer' %>
