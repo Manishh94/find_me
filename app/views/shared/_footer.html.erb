@@ -1,0 +1,10 @@
+<!-- Footer -->
+<footer class="text-center">
+  <%= link_to '#myPage', data: {toggle: "tooltip"}, title: "TO TOP" do %>
+    <%= content_tag(:span, '', class: "glyphicon glyphicon-chevron-up") %>
+  <% end %>
+  <br><br>
+  <p>
+    <%= t('site.name') %> <%= link_to(t('site.url'), root_path, data: { toggle: "tooltip" }, title: "Visit FindMe" ) %>
+  </p>
+</footer>
